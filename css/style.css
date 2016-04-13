@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700,800);
+
+body{
+	font: 16px/1.58 'Raleway', sans-serif;
+	color:  #262626;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1240px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* INTRO part */
+.ba-intro {
+	background: #F7F6F9 url(../img/intro-background.jpg) 50% no-repeat;
+	background-size: cover;
+	padding-top: 45px;
+	padding-bottom: 70px;
+}
+.ba-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 11px;
+}
+.ba-menu a {
+	float: left;
+	position: relative;
+	text-decoration: none;
+	font-weight: 700;
+	color:  #262626;
+	padding: 4px 20px;
+}
+.ba-menu a:after {
+	content: '';
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	bottom: 100%;
+	height: 4px;
+	background-color:  #ff6033;
+	transition: opacity 0.3s, transform 0.3s;
+	opacity: 0;
+	transform: translateY(-10px);
+}
+.ba-menu a:hover:after {
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ba-header {
+	margin-bottom: 230px;
+}
+.ba-intro-text {
+	max-width: 370px;
+	padding-bottom: 294px;
+}
+.ba-intro-text__title {
+	margin: 0;
+	font-size: 60px;
+	font-weight: 800;
+}
+.ba-intro-text p {
+	margin: 0;
+	font-size: 17px;
+	margin-bottom: 28px;
+}
+.ba-intro-text a {
+	display: inline-block;
+	height: 55px;
+	line-height: 55px;
+	padding: 0 26px;
+	background-color: #FF6033;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	text-decoration: none;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.ba-intro-text a:active {
+	position: relative;
+	top: 1px;
+}
+.ba-intro-scroll {
+	display: block;
+	width: 30px;
+	height: 44px;
+	background: url(../img/scroll.png) 100% 50% no-repeat;
+	margin: 0 auto;
+}
+/* ABOUT part */
+.ba-about {
+	padding: 30px 0 20px;
+	color: #FFF;
+	background-color:  #00c4c4;
+	background: -webkit-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -moz-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -o-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -ms-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+}
+.ba-about-img {
+	width: 58%;
+	margin-left: -47px;
+}
+.ba-about-text {
+	width: 42%;
+	padding-top: 111px;
+	padding-left: 20px;
+}
+.ba-about-text__title {
+	font-size: 90px;
+	margin: 0;
+}
+.ba-about-text p {
+	margin: 0;
+	margin-bottom: 10px;
+}
