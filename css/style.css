@@ -432,6 +432,9 @@ textarea {
 	border: none;
 	padding: 0 45px;
 }
+.ba-button--contact:focus {
+	outline: none;
+}
 .ba-contact-form__field::-webkit-input-placeholder {
 	color:#fff;
 }
