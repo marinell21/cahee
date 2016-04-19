@@ -181,6 +181,7 @@ textarea {
 }
 .ba-about-text__title {
 	margin: 0;
+	word-wrap: break-word;
 }
 .ba-about-text p {
 	margin: 0;
@@ -238,6 +239,7 @@ textarea {
 	background: url(../img/tomato.png) 76% 50% no-repeat;
 	padding: 211px 0 211px 20px;
 	margin: 0;
+	word-wrap: break-word;
 }
 /* GALLERY part */
 .ba-grid + .ba-grid {
@@ -450,6 +452,7 @@ textarea {
 }
 .ba-contact-info a {
 	text-decoration: none;
+	word-wrap: break-word;
 }
 .ba-contact-info p {
 	margin: 0;
